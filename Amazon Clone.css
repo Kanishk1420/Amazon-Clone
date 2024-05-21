@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image-class{
+    padding-top: 2px;
+    display: flex;
+    justify-content: left;
+    width: 131.73px;
+    height: 46px;;
+}
+.image-class:hover{
+    box-shadow: 2px -2px 2px 2px rgb(238, 237, 237), -2px 2px 2px 2px rgb(248, 246, 246);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    color: aliceblue;
+    padding: 8px 17px;
+    font-family: poppins;
+    gap: 50px;
+}
+.del{
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+    font-weight: 400;
+}
+.deliver:hover{
+    box-shadow: 2px -2px 2px 2px rgb(238, 237, 237), -2px 2px 2px 2px rgb(248, 246, 246);
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.search{
+    display: flex;
+    background: orchid;
+    width: 1000px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.select-search{
+    background: #f4f1f1;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    background: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+
+.flag{
+
+    width: 16px;
+    height: 12px;
+    margin-left: -23px;
+    margin-bottom: -1px;
+    margin-right: 4px;
+
+}
+.button{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 210px;
+    height: 420px;
+    border: 2px groove rgba(128, 128, 128, 0.139);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 0px 1px 5px 2px;
+    margin: 3px;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropdown-content a:hover {
+    color: rgb(232, 153, 6);
+    text-decoration: underline;
+}
+.dropdown-content ul {
+    list-style: none;
+}
+.color{
+    accent-color: rgb(232,153,6);
+    margin: 12px 0px 0px 20px;
+}
+hr {
+    border: none;
+    height: 1px; 
+    background-color: rgb(194, 193, 193);
+    width: 80%;
+    margin: 0 auto;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .button {
+    box-shadow: 2px -2px 2px 2px rgb(238, 237, 237), -2px 2px 2px 2px rgb(248, 246, 246);
+}
+.learn-more {
+    color: blue;
+}
+.india
+{ width: 16px;
+    height: 12px;
+    margin-left: 9px;
+    margin-bottom: -3px;
+}
+.final{
+    color: black;
+    font-family: poppins;
+    font-size: 11px;
+    font-weight: 500;
+    border: none;
+    list-style: none;
+    display: inline-block;
+}
+.finall{
+    color: blue;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    list-style: none;
+    text-align: center;
+    padding: 7px;
+}
+.finall:hover{
+    text-decoration: underline;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    width: 170%;
+    height: 170%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.354);
+    z-index: -2;
+}
+
+.dropdown:hover ~ .overlay {
+    display: block;
+}
+.details p{
+    font-size: 13px;
+}
+.details .Account h1{
+    font-size: 16px;
+    font-weight: 500;
+}
+.details{
+    padding-right: 10px;
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.sub-order{
+ font-size: 10px;
+ font-weight: 500;
+}
+.Cart{
+    font-size:30px;
+    position: relative;
+    display: inline-block;
+}
+.cart-number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 78%;
+    font-size: 14px;
+}
+.Cart:hover{
+    box-shadow: 2px -2px 2px 2px rgb(238, 237, 237), -2px 2px 2px 2px rgb(248, 246, 246);
+}
+.categories{
+    background: var(--sub-nav-bg);
+    color: #f4f1f1;
+    padding: 10px;
+    background-color: #007185;
+    font-family: poppins;
+}
+.categories ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.categories ul li{
+    font-size: 15px;
+    font-weight: normal;
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+.hero-section{
+    height: 85.6vh;
+   background: url('./Amazon Images/hero_image.jpg');
+   background-size: cover;
+   background-position:top;
+}
+
+.card{
+    background: white;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.img-box{
+    width: 100px;
+    height: 100px;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.card-container{
+    padding: 30px;
+    background-color: #a9abad;
+}
+.card{
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.439);
+}
+
+.card a{
+    text-decoration: none;
+    color: #007185;
+}
+.card-sub{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    row-gap: 30px;
+
+}
+
+.card p{
+    color: gray;
+    font-size: 12px
+}
+.card h1{
+    font-family: poppins;
+}
+.box{
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.back-to-top{
+    font-family: poppins;
+    background: #37475a;
+    padding: 13px;
+   text-align: center;
+}
+
+.back-to-top a{
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+    
+}
+.botum-foot{
+    font-family: poppins;
+    background: #232F3E;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 100px 200px;
+}
+
+.botum-foot h2{
+    font-family: poppins;
+    color: white;
+}
+
+.footer-links{
+    display: grid;
+    gap: 10px;
+}
+.botum-foot li{
+    font-family: poppins;
+    color: gray;
+    list-style: none;
+}
